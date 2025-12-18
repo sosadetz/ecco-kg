@@ -1,0 +1,60 @@
+@prefix rdf:  <http://www.w3.org/1999/02/22-rdf-syntax-ns#> .
+@prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
+@prefix bf:   <http://id.loc.gov/ontologies/bibframe/> .
+@prefix ecco: <https://sosadetz.github.io/ecco-kg#> .
+
+### CLASSES ###
+
+ecco:StructuralUnit a rdfs:Class ;
+  rdfs:label "Structural unit" ;
+  rdfs:comment "A bibliographically meaningful part of a volume, such as a preface, chapter, or periodical essay." .
+
+ecco:Passage a rdfs:Class ;
+  rdfs:label "Passage" ;
+  rdfs:comment "A fixed-length text segment (e.g. 1,000 words) used as a unit of indexing and retrieval." .
+
+ecco:Assertion a rdfs:Class ;
+  rdfs:label "Assertion" ;
+  rdfs:comment "A scholarly claim about a passage or structural unit (e.g., corrected authorship, concept tagging)." .
+
+ecco:SexOrGender a rdfs:Class ;
+  rdfs:label "Sex or gender category" ;
+  rdfs:comment "A controlled category for sex/gender values, aligned with Wikidata P21 where possible." .
+
+### PROPERTIES ###
+
+ecco:hasStructuralUnit a rdf:Property ;
+  rdfs:label "has structural unit" ;
+  rdfs:domain bf:Instance ;
+  rdfs:range  ecco:StructuralUnit ;
+  rdfs:comment "Links a bibliographic instance (volume) to a structural unit within it." .
+
+ecco:hasPassage a rdf:Property ;
+  rdfs:label "has passage" ;
+  rdfs:domain ecco:StructuralUnit ;
+  rdfs:range  ecco:Passage ;
+  rdfs:comment "Links a structural unit to a passage it contains." .
+
+ecco:aboutPassage a rdf:Property ;
+  rdfs:label "about passage" ;
+  rdfs:domain ecco:Assertion ;
+  rdfs:range  ecco:Passage ;
+  rdfs:comment "Links an assertion to the passage it describes." .
+
+ecco:assertsAuthor a rdf:Property ;
+  rdfs:label "asserts author" ;
+  rdfs:domain ecco:Assertion ;
+  rdfs:range  bf:Agent ;
+  rdfs:comment "States that, according to this assertion, the author of the target passage or unit is a given agent." .
+
+ecco:assertsConcept a rdf:Property ;
+  rdfs:label "asserts concept" ;
+  rdfs:domain ecco:Assertion ;
+  rdfs:range  <http://www.w3.org/2004/02/skos/core#Concept> ;
+  rdfs:comment "States that, according to this assertion, the passage instantiates a given analytic concept." .
+
+ecco:hasSexOrGender a rdf:Property ;
+  rdfs:label "has sex or gender" ;
+  rdfs:domain bf:Agent ;
+  rdfs:range  ecco:SexOrGender ;
+  rdfs:comment "Links an agent to a sex/gender category imported from Wikidata P21 where available." .
