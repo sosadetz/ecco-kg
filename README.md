@@ -2,8 +2,6 @@
 
 This repository contains information about a proof‑of‑concept implementation of an **assertional knowledge graph** for large historical text corpora, built over Gale’s *Eighteenth Century Collections Online* (ECCO) dataset.
 
-The central idea is simple:
-
 Instead of navigating only by bibliographic containers (titles, authors, dates), we want to navigate by what books actually *say* — their citations, concepts, events, and named agents — at the level of specific passages.
 
 To that end, this project combines:
