@@ -28,7 +28,7 @@ This repository contains small snippets of the assertion data for the major node
 	- `concepts.csv` - concepts discussed
 	- `events.csv` - events discussed
 - assertions/
-	- JSON example assertions drawn from Clarkson's _An Essay on Slavery_ (citing poems by Wheatley) and Addison and Steele's _The Spectator_, No. 10.
+	- JSON example assertions drawn from Thomas Clarkson's _An Essay on Slavery_ (citing poems by Phillis Wheatley) and Addison and Steele's _The Spectator_, No. 10.
 - images/
 	- `1_pilot_graph.png` - Neo4j visualization of the pilot graph, excluding leaf nodes
 	- `2_kg_master_schema.png` - Illustrates the graph's schema, including nodes and edges
