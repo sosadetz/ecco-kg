@@ -1,52 +1,40 @@
-# An Eighteenth-Century Knowledge Graph (ECCO-KG)
+# A knowledge graph for eighteenth-century corpora
 
-This repository contains information about a proof‑of‑concept implementation of an **assertional knowledge graph** for large historical text corpora, built over Gale’s *Eighteenth Century Collections Online* (ECCO) dataset.
+This repository documents an assertional knowledge graph built for large historical corpora, using public-domain eighteenth-century volumes from HathiTrust. Its premise is simple: humanists should be able to navigate an archive not only according to volume-level bibliographic metadata, but by what books actually _do on the page_: whom they invoke, what authorities they cite, what events they recount, what concepts they debate, and how they position their claims.
 
-Instead of navigating only by bibliographic containers (titles, authors, dates), we want to navigate by what books actually *say* — their citations, concepts, events, and named agents — at the level of specific passages.
+The graph is designed to support scholarly discovery at the scale of reading: using generative AI models as first-pass catalogers, it attaches structured, interoperable claims about passage-level content that can be aggregated and queried across a corpus.
 
-To that end, this project combines:
+### What the graph enables
 
-- **Passage‑level indexing** (1,000‑word segments)  
-- A **cascading metadata model** inspired by BIBFRAME  
-- A layer of **localized assertions** about what each passage contains  
-- Assertions generated both by **machine (LLM‑assisted)** and by **human scholars**, with the possibility of validation and correction
+Instead of asking only “Which books contain a keyword?”, you can ask questions that are more meaningful for qualitative humanistic inquiry, at the scale of the corpus:
+- **Reception and citation networks**: Which authorities are repeatedly cited in particular debates or genres?
+- **Conceptual history**: Where and how do concepts cluster and change across decades?
+- **Reference-based timelines and geographies**: Which episodes recur, and where do texts locate their arguments?
+- **Argumentation and stance**: How do passages frame their claims? In aggregate, do they treat particular ideas approvingly or critically? Do they tend to be polemical, didactic, or satirical?
 
-The result is a graph in which citations, concepts and events become a primary means of navigating the archive.
+### Pilot snapshot (completed)
 
-**Status:** This is an active proof‑of‑concept. The goal of this repository is to make the conceptual model and basic tooling inspectable and reproducible for other digital‑humanities projects.
+Our completed proof-of-concept represents **31 volumes** (largely concerning abolition), **4,594 passage objects,** and **95,599 assertions** (≈ 20.8 assertions/passage). The pilot demonstrates that carefully constrained extraction can yield dense, structured signals across several assertion families, including people mentioned, places, works cited, concepts, and (with more caution) events and discursive stance.
 
-### Four‑Level Cascading & Assertional Model
+### Repository contents
 
-The graph adopts a simple four‑layer model:
+This repository contains small snippets of the assertion data for the major node types in our graph.
 
-1. **Volume / Work–Instance (Bibliographic layer)**  
-   - BIBFRAME‑style description of works and instances (title, author, imprint, etc.).
+- data/
+	- `works.csv` - works analyzed and discussed
+	- `instances.csv` – bibliographic volume records for works analyzed
+	- `passages.csv` - 1,000-word passage objects derived from instances
+	- `agents.csv` – authors cited and people discussed
+	- `concepts.csv` - concepts discussed
+	- `events.csv` - events discussed
+- assertions/
+	- JSON example assertions drawn from Clarkson's _An Essay on Slavery_ and Addison and Steele's _The Spectator_.
+- images/
+	- `pilot_graph.png` - Neo4j visualization of the pilot graph, excluding leaf nodes
+	- `kg_master_schema.png` - Illustrates the graph's schema, including nodes and edges
+	- `smith_slavery_passages` - A segment of the graph showing passages from Smith's _Wealth of Nations_ that discuss concepts related to slavery.
+    -  `agents_gallery` - People mentioned in our pilot corpus, sorted by birthdate. This gallery was developed using the Wikidata Query Service, so only persons with Wikidata Q-IDs and associated images are represented. More suitable as a teaching resource, this gallery is meant meerely to provide an illustrative example, indicating the sorts of questions that become newly possible to ask through this graph.
 
-2. **Structural Units**  
-   - Self‑contained parts within a volume (chapters, sermons, prefaces, articles, poems).
+### Citation
 
-3. **Passage Objects**  
-   - Fixed‑length segments (e.g. 1,000‑word passages) that are the unit of retrieval in the search engine.
-
-4. **Assertion Records**  
-   - Localized, structured statements that link spans within a passage to entities, via typed relations.  
-   - Example assertions:
-     - `passage_123` — *cites* → `Justinian`  
-     - `passage_456` — *discusses* → `property in persons`  
-     - `passage_789` — *mentions_event* → `Saint-Domingue slave revolt 1791`  
-
-This repository provides a small, inspectable **toy version** of that graph over a limited subset of passages, illustrating how such queries could be framed.
-
-## Repository Contents
-
-The repository is very minimal, in current development, and organized as follows:
-
-- `data/`  
-  - `volumes.csv` – toy bibliographic records (volume IDs, titles, authors, etc.).  
-  - `structural_units.csv` – chapters / sermons / sections within volumes.  
-  - `entities.csv` – entities used in assertions (persons, works, concepts, events).  
-  - `assertions.csv` – assertion records (passage, entity, relation, source, confidence, etc.).
-
-- `images/`  
-  - `toy_graph.png` – Neo4j visualization of the toy graph, which is in development.  
-  - `abolitionist_vols.png` – Shows the assertional relationships between three abolitionist texts: Equiano, Clarkson, and Wesley.  
+If you use or adapt this project’s model, schema, or exports, please cite the repository (and the relevant release tag). A longer-form scholarly description of the pilot’s affordances and limitations is in preparation.
