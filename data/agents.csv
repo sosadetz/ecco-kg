@@ -1,148 +1,51 @@
-Label,author_id,documentID,author,ecco_author,sex_or_gender,birth_year,death_year,coteries,citizenship,occupation,author_wikidata_id,wikidata_url,wikidata_image_url,wikipedia_url,oxford_dnb_url,passage_count
-agent,A0001,866300300,Mark Akenside,"Akenside, Mark           1721           1770           1721-1770",male,1721,1770,[],"[""Kingdom of Great Britain""]","[""poet"",""physician"",""physician writer""]",Q1247855,http://www.wikidata.org/entity/Q1247855,https://upload.wikimedia.org/wikipedia/commons/e/e0/Mark_Akenside.jpg,https://en.wikipedia.org/wiki/Mark_Akenside,https://doi.org/10.1093/ref:odnb/263,30
-agent,A0002,509000201,Joseph Addison,,,,,,,,,,,,,
-agent,A0003,295400903,Samuel Johnson,"Johnson, Samuel           1709           1784           1709-1784",male,1709,1784,"[""LC"",""BSS""]","[""Kingdom of Great Britain""]","[""lexicographer"",""linguist"",""poet"",""literary historian"",""writer"",""teacher"",""literary critic"",""biographer"",""essayist"",""politician""]",Q183266,http://www.wikidata.org/entity/Q183266,https://upload.wikimedia.org/wikipedia/commons/2/20/Samuel_Johnson_by_Joshua_Reynolds.jpg,https://en.wikipedia.org/wiki/Samuel_Johnson,https://doi.org/10.1093/ref:odnb/14918,87
-agent,A0004,937100600,Samuel Taylor Coleridge,"Coleridge, Samuel Taylor           1772-1834",male,1772,1834,"[""R""]","[""Kingdom of Great Britain"",""United Kingdom of Great Britain and Ireland""]","[""poet"",""philosopher"",""theologian"",""writer"",""literary critic""]",Q82409,http://www.wikidata.org/entity/Q82409,https://upload.wikimedia.org/wikipedia/commons/1/17/Samuel_Taylor_Coleridge_at_age_42.jpg,https://en.wikipedia.org/wiki/Samuel_Taylor_Coleridge,https://doi.org/10.1093/ref:odnb/5888,23
-agent,A0005,540000201,Adam Smith,"Smith, Adam           1723           1790           1723-1790",male,1723,1790,"[""LC"",""Ph"",""BSS""]","[""Kingdom of Great Britain""]","[""economist"",""non-fiction writer"",""philosopher"",""writer""]",Q9381,http://www.wikidata.org/entity/Q9381,https://upload.wikimedia.org/wikipedia/commons/0/0a/AdamSmith.jpg,https://en.wikipedia.org/wiki/Adam_Smith,https://doi.org/10.1093/ref:odnb/25767,90
-agent,A0006,208300801,David Hume,"Hume, David           1711           1776           1711-1776",male,1711,1776,"[""Ph""]","[""Kingdom of Great Britain""]","[""philosopher"",""economist"",""librarian"",""historian"",""essayist"",""writer""]",Q37160,http://www.wikidata.org/entity/Q37160,"https://upload.wikimedia.org/wikipedia/commons/1/1c/Allan_Ramsay_-_David_Hume,_1711_-_1776._Historian_and_philosopher_-_Google_Art_Project.jpg",https://en.wikipedia.org/wiki/David_Hume,https://doi.org/10.1093/ref:odnb/14141,108
-agent,A0007,32100800,Jean-Antoine-Nicolas de Caritat de Condorcet,"Condorcet, Jean-Antoine-Nicolas de Caritat, Marquis de           1743           1794           1743-1794",male,1743,1794,"[""Ph""]","[""France""]","[""philosopher"",""mathematician"",""economist"",""politician"",""political scientist"",""sociologist"",""writer"",""biographer""]",Q201477,http://www.wikidata.org/entity/Q201477,https://upload.wikimedia.org/wikipedia/commons/5/5b/Nicolas_de_Condorcet.PNG,https://en.wikipedia.org/wiki/Marquis_de_Condorcet,,72
-agent,A0008,356100101,Alexander Pope,"Pope, Alexander           1688-1744",male,1688,1744,"[""SC""]","[""Kingdom of England"",""Kingdom of Great Britain""]","[""poet"",""literary historian"",""translator"",""writer""]",Q164047,http://www.wikidata.org/entity/Q164047,https://upload.wikimedia.org/wikipedia/commons/5/5d/Alexander_Pope_by_Michael_Dahl.jpg,https://en.wikipedia.org/wiki/Alexander_Pope,https://doi.org/10.1093/ref:odnb/22526,102
-agent,A0009,646400100,Voltaire,Voltaire           1694           1778           1694-1778,male,1694,1778,"[""Ph""]","[""France""]","[""philosopher"",""poet"",""historian"",""essayist"",""playwright"",""autobiographer"",""diarist"",""lawyer"",""science fiction writer"",""correspondent"",""author""]",Q9068,http://www.wikidata.org/entity/Q9068,"https://upload.wikimedia.org/wikipedia/commons/f/f2/Atelier_de_Nicolas_de_LargilliÃ¨re,_portrait_de_Voltaire,_dÃ©tail_(musÃ©e_Carnavalet)_-002.jpg",https://en.wikipedia.org/wiki/Voltaire,https://doi.org/10.1093/ref:odnb/68321,35
-agent,A0010,66000300,Maria Edgeworth,"Edgeworth, Maria           1767           1849           1767-1849",female,1767,1849,"[""R"",""N""]","[""Ireland""]","[""writer"",""essayist"",""novelist"",""children's writer""]",Q237575,http://www.wikidata.org/entity/Q237575,https://upload.wikimedia.org/wikipedia/commons/9/97/Maria_Edgeworth_by_John_Downman_1807.jpg,https://en.wikipedia.org/wiki/Maria_Edgeworth,https://doi.org/10.1093/ref:odnb/8476,31
-agent,A0011,1198200200,Thomas Clarkson,"Clarkson, Thomas           1760           1846           1760-1846",male,1760,1846,[],"[""United Kingdom of Great Britain and Ireland""]","[""writer"",""author""]",Q2032151,http://www.wikidata.org/entity/Q2032151,https://upload.wikimedia.org/wikipedia/commons/9/90/Thomas_Clarkson_by_Carl_Frederik_von_Breda.jpg,https://en.wikipedia.org/wiki/Thomas_Clarkson,https://doi.org/10.1093/ref:odnb/5545,57
-agent,A0012,1596900601,Olaudah Equiano,"Equiano, Olaudah           1745           b. 1745",unknown,1745,,[],"[""United States of America""]","[""writer"",""autobiographer"",""barber"",""merchant"",""sailor""]",Q379887,http://www.wikidata.org/entity/Q379887,https://upload.wikimedia.org/wikipedia/commons/7/78/Olaudah_Equiano_-_Project_Gutenberg_eText_15399.png,https://en.wikipedia.org/wiki/Olaudah_Equiano,https://doi.org/10.1093/ref:odnb/57028,45
-agent,A0013,922700800,John Wesley,"Wesley, John           1703           1791           1703-1791",male,1703,1791,[],"[""Kingdom of Great Britain""]","[""theologian"",""cleric"",""diarist"",""philosopher"",""translator"",""writer"",""hymnwriter""]",Q213393,http://www.wikidata.org/entity/Q213393,https://upload.wikimedia.org/wikipedia/commons/8/89/John_Wesley_by_William_Hamilton.jpg,https://en.wikipedia.org/wiki/John_Wesley,https://doi.org/10.1093/ref:odnb/29069,10
-agent,A0014,432500700,Great Britain. Board of Trade,Great Britain. Board of Trade,unknown,,,[],[],[],,,,,,668
-agent,A0015,1163900102,Bryan Edwards,"Edwards, Bryan           1743           1800           1743-1800",male,1743,1800,[],[],"[""historian"",""politician""]",Q2927146,http://www.wikidata.org/entity/Q2927146,"https://upload.wikimedia.org/wikipedia/commons/8/81/Bryan_Edwards,_by_Lemuel_Francis_Abbott.jpg",https://en.wikipedia.org/wiki/Bryan_Edwards_(politician),https://doi.org/10.1093/ref:odnb/8531,154
-agent,A0016,49900105,Samuel Richardson,"Richardson, Samuel           1689           1761           1689-1761",male,1689,1761,"[""N""]","[""Kingdom of Great Britain""]","[""writer"",""novelist""]",Q295941,http://www.wikidata.org/entity/Q295941,https://upload.wikimedia.org/wikipedia/commons/8/86/Samuel_Richardson_by_Joseph_Highmore.jpg,https://en.wikipedia.org/wiki/Samuel_Richardson,https://doi.org/10.1093/ref:odnb/23582,120
-agent,A0017,468200101,John Milton,"Milton, John           1608           1674           1608-1674",male,1608,1674,[],"[""Kingdom of England""]","[""writer"",""poet"",""politician""]",Q79759,http://www.wikidata.org/entity/Q79759,https://upload.wikimedia.org/wikipedia/commons/9/91/John-milton.jpg,https://en.wikipedia.org/wiki/John_Milton,https://doi.org/10.1093/ref:odnb/18800,198
-agent,A0018,290100102,Jane Collier,"Collier, Jane           1709?-1754",female,1714,1754,"[""N""]",[],"[""novelist"",""writer""]",Q6151265,http://www.wikidata.org/entity/Q6151265,,https://en.wikipedia.org/wiki/Jane_Collier,https://doi.org/10.1093/ref:odnb/37302,57
-agent,A0019,695101100,William Shakespeare,"Shakespeare, William           1564           1616           1564-1616",male,1564,1616,[],"[""Kingdom of England""]","[""playwright"",""poet"",""stage actor"",""writer"",""actor"",""dramaturge"",""author""]",Q692,http://www.wikidata.org/entity/Q692,https://upload.wikimedia.org/wikipedia/commons/a/a2/Shakespeare.jpg,https://en.wikipedia.org/wiki/William_Shakespeare,https://doi.org/10.1093/ref:odnb/25200,27
-agent,A0020,310700201,Mary Barber,,female,,,,,,,,,,,
-agent,A0021,866300300,Anna Laetitia Barbauld,,female,,,,,,,,,,,
-agent,A0022,509000201,Richard Steele,,male,,,,,,,,,,,
-agent,A0023,310700201,Aphra Behn,,female,,,,,,,,,,,
-agent,A0024,310700201,Elizabeth Carter,,female,,,,,,,,,,,
-agent,A0025,310700201,Mary Chudleigh,,female,,,,,,,,,,,
-agent,A0026,310700201,Alison Cockburn,,female,,,,,,,,,,,
-agent,A0027,310700201,Constantia Grierson,,female,,,,,,,,,,,
-agent,A0028,310700201,Mary Jones,,female,,,,,,,,,,,
-agent,A0029,310700201,Theophilus Cibber,,male,,,,,,,,,,,
-agent,A0030,310700201,Jonathan Swift,,male,,,,,,,,,,,
-agent,A0031,937100600,William Wordsworth,,male,,,,,,,,,,,
-agent,A0032,356100101,Homer,,male,,,,,,,,,,,
-agent,A0033,290100102,Sarah Fielding,,female,,,,,,,,,,,
-agent,A0034,,James Ramsay,,male,,,,,,,,,,,
-agent,A0035,,James Tobin,,male,,,,,,,,,,,
-agent,A0036,,Sir Joshua Reynolds,,male,,,,,,,,,,,
-agent,A0037,,Horace,,male,,,,,,,,,,,
-agent,A0038,,Aristotle,,male,,,,,,,,,,,
-agent,A0039,,Charles V,,male,,,,,,,,,,,
-agent,A0040,,Francis Hargrave,,male,,,,,,,,,,,
-agent,A0041,,Andr� Brue,,male,,,,,,,,,,,
-agent,A0042,,Michel Adanson,,male,,,,,,,,,,,
-agent,A0043,,Sir John Hawkins,,male,,,,,,,,,,,
-agent,A0044,,Jean Barbot,,male,,,,,,,,,,,
-agent,A0045,,Sir Hans Sloane,,male,,,,,,,,,,,
-agent,A0046,,William Blackstone,,male,,,,,,,,,,,
-agent,A0047,,Justinian,,male,,,,,,,,,,,
-agent,A0048,,Hugh Bryan,,male,,,,,,,,,,,
-agent,A0049,,Jesus Christ,,male,,,,,,,,,,,
-agent,A0050,,William Charles Colyear Earl of Portmore,,male,,,,,,,,,,,
-agent,A0051,,Bartolom� de las Casas,,male,,,,,,,,,,,
-agent,A0052,,Morgan Godwyn,,male,,,,,,,,,,,
-agent,A0053,,John Woolman,,male,,,,,,,,,,,
-agent,A0054,,Anthony Benezet,,male,,,,,,,,,,,
-agent,A0055,,Livy,,male,,,,,,,,,,,
-agent,A0056,,Granville Sharp,,male,,,,,,,,,,,
-agent,A0057,,University of Cambridge,,male,,,,,,,,,,,
-agent,A0058,,Griffith Hughes,,male,,,,,,,,,,,
-agent,A0059,,Thomas Jefferys,,male,,,,,,,,,,,
-agent,A0060,,Solon,,male,,,,,,,,,,,
-agent,A0061,,Diodorus Siculus,,male,,,,,,,,,,,
-agent,A0062,,Moses,,male,,,,,,,,,,,
-agent,A0063,,Nimrod,,male,,,,,,,,,,,
-agent,A0064,,Cicero,,male,,,,,,,,,,,
-agent,A0065,,Tacitus,,male,,,,,,,,,,,
-agent,A0066,,Xenophon,,male,,,,,,,,,,,
-agent,A0067,,Thucydides,,male,,,,,,,,,,,
-agent,A0068,,Sextus Empiricus,,male,,,,,,,,,,,
-agent,A0069,,Aristophanes,,male,,,,,,,,,,,
-agent,A0070,,Plautus,,male,,,,,,,,,,,
-agent,A0071,,Demosthenes,,male,,,,,,,,,,,
-agent,A0072,,Plato,,male,,,,,,,,,,,
-agent,A0073,,Seneca,,male,,,,,,,,,,,
-agent,A0074,,Aesop,,male,,,,,,,,,,,
-agent,A0075,,Phaedrus,,male,,,,,,,,,,,
-agent,A0076,,Alcman,,male,,,,,,,,,,,
-agent,A0077,,Epictetus,,male,,,,,,,,,,,
-agent,A0078,,Terence,,male,,,,,,,,,,,
-agent,A0079,,Quintilian,,male,,,,,,,,,,,
-agent,A0082,,Menenius Agrippa,,male,,,,,,,,,,,
-agent,A0083,,Willem Bosman,,male,,,,,,,,,,,
-agent,A0084,,Thomas Astley,,male,,,,,,,,,,,
-agent,A0085,,Anders Sparrman,,male,,,,,,,,,,,
-agent,A0086,,Justin,,male,,,,,,,,,,,
-agent,A0087,,Sallust,,male,,,,,,,,,,,
-agent,A0088,,Ammianus Marcellinus,,male,,,,,,,,,,,
-agent,A0089,,Julius Caesar,,male,,,,,,,,,,,
-agent,A0090,,William Paley,,male,,,,,,,,,,,
-agent,A0091,,Pomponius,,male,,,,,,,,,,,
-agent,A0092,,Hugo Grotius,,male,,,,,,,,,,,
-agent,A0093,,Polybius,,male,,,,,,,,,,,
-agent,A0094,,Luke Collingwood,,male,,,,,,,,,,,
-agent,A0095,,Leo Africanus,,male,,,,,,,,,,,
-agent,A0096,,Phillis Wheatley,,female,,,,,,,,,,,
-agent,A0097,,Ignatius Sancho,,male,,,,,,,,,,,
-agent,A0098,,James Beattie,,male,,,,,,,,,,,
-agent,A0099,,Jacob Bryant,,male,,,,,,,,,,,
-agent,A0100,,Jeremiah,,male,,,,,,,,,,,
-agent,A0101,,Josephus,,male,,,,,,,,,,,
-agent,A0102,,Jerome,,male,,,,,,,,,,,
-agent,A0103,,Pliny the Elder,,male,,,,,,,,,,,
-agent,A0104,,Georgius Syncellus,,male,,,,,,,,,,,
-agent,A0105,,Marcello Malpighi,,male,,,,,,,,,,,
-agent,A0106,,Abbe Raynal,,male,,,,,,,,,,,
-agent,A0107,,William Warburton,,male,,,,,,,,,,,
-agent,A0108,,St Paul,,male,,,,,,,,,,,
-agent,A0109,,Onesimus,,male,,,,,,,,,,,
-agent,A0110,,Philemon,,male,,,,,,,,,,,
-agent,A0111,,Edmund Affleck,,male,,,,,,,,,,,
-agent,A0112,,James Baker,,male,,,,,,,,,,,
-agent,A0113,,Anne Erskine,,female,,,,,,,,,,,
-agent,A0114,,"Sir Philip Gibbes, 1st Baronet",,male,,,,,,,,,,,
-agent,A0115,,"Edward Hawke, 1st Baron Hawke",,male,,,,,,,,,,,
-agent,A0116,,"Rowland Hill, 1st Viscount Hill",,male,,,,,,,,,,,
-agent,A0117,,"Sir Herbert Mackworth, 1st Baronet",,male,,,,,,,,,,,
-agent,A0118,,"Charles Middleton, 1st Baron Barham",,male,,,,,,,,,,,
-agent,A0119,,Elizabeth Montagu,,female,,,,,,,,,,,
-agent,A0120,,Hannah More,,female,,,,,,,,,,,
-agent,A0121,,"Francis Rawdon-Hastings, 1st Marquess of Hastings",,male,,,,,,,,,,,
-agent,A0122,,Sidney Smith,,male,,,,,,,,,,,
-agent,A0123,,Henry Thornton,,male,,,,,,,,,,,
-agent,A0124,,William Windham,,male,,,,,,,,,,,
-agent,A0125,,Josiah Wedgwood,,male,,,,,,,,,,,
-agent,A0126,,Samuel Whitbread,,male,,,,,,,,,,,
-agent,A0127,,John Byng,,male,,,,,,,,,,,
-agent,A0128,,Pierre Gu�rin,,male,,,,,,,,,,,
-agent,A0129,,James Wolfe,,male,,,,,,,,,,,
-agent,A0130,,Charles Hardy,,male,,,,,,,,,,,
-agent,A0131,,Louis de Brienne de Conflans d'Armenti?�res,,male,,,,,,,,,,,
-agent,A0132,,Edward Boscawen,,male,,,,,,,,,,,
-agent,A0133,,Saint Peter,,male,,,,,,,,,,,
-agent,A0134,,"Richard Howe, 1st Earl Howe",,male,,,,,,,,,,,
-,,,,,,,,,,,,,,,,
-,,,,,,,,,,,,,,,,
-,,,,,,,,,,,,,,,,
-,,,,,,,,,,,,,,,,
-,,,,,,,,,,,,,,,,
-,,,,,,,,,,,,,,,,
-,,,,,,,,,,,,,,,,
-,,,,,,,,,,,,,,,,
-,,,,,,,,,,,,,,,,
-,,,,,,,,,,,,,,,,
-,,,,,,,,,,,,,,,,
-,,,,,,,,,,,,,,,,
-,,,,,,,,,,,,,,,,
-,,,,,,,,,,,,,,,,
-,,,,,,,,,,,,,,,,
+﻿agent_id,label
+James Arnold,James Arnold
+agent:10th_regiment:923155b4ab,10th Regiment
+agent:32d_regiment:1b23c9c6d7,32d Regiment
+agent:36th_regiment:06d75849b7,36th Regiment
+agent:36th_regiment:1669858799,36th_regiment
+agent:45th_regiment:ce205e95d1,45th Regiment
+agent:48th_regiment:7ca000b6bb,48th regiment
+agent:49th_regiment:8fdbd00166,49th_regiment
+agent:49th_regiment:9a874942ae,49th regiment
+agent:62d_regiment:cd6c282621,62d Regiment
+agent:66th_regiment:3647c83cf9,66th Regiment
+agent:66th_regiment:b6af6002f9,66th_regiment
+agent:74th_regiment:39bd09898b,74th_regiment
+agent:74th_regiment:43ae9c34bf,74th Regiment
+agent:75th_regiment:9d5c549e04,75th Regiment
+agent:86th_regiment:5d72ff8d51,86th Regiment
+agent:a:86f7e437fa,A
+agent:a_madocho_lomi_djara:4da35771ef,A Madocho Lomi Djara
+agent:a_planter:a09d9e6ca4,A Planter
+agent:aaron_hill:374560b154,Aaron Hill
+agent:abarbinel:9c5a8919db,Abarbinel
+agent:abbe_de_marivault:fd57097456,AbbÃ© de Marivault
+agent:abbe_de_saint_pierre:97d4e511d1,AbbÃ© de Saint-Pierre
+agent:abbe_expilly:cb5094693a,Abbe Expilly
+agent:abbe_gregoire:cd8b80df99,AbbÃ© Gregoire
+agent:abbe_proyart:b29338b0a4,AbbÃ© Proyart
+agent:abbe_sieyes:2546ac30ec,AbbÃ© SieyÃ¨s
+agent:abbot:94129fd53f,abbot
+agent:abdul:3fb8659102,Abdul
+agent:abel_jansen_tasman:ced465412a,Abel Jansen Tasman
+agent:abelson:6ff405213c,Abelson
+agent:aben_ezra:2201c83c02,Aben Ezra
+agent:abenakies:e535cee5ff,Abenakies
+agent:abot_de_bazinghen:f664a1a35b,Abot de Bazinghen
+agent:abp_sharp:50020c3413,Abp. Sharp
+agent:abraham:1517d545cc,Abraham
+agent:abraham_charles_adye:f393c82721,Abraham Charles Adye
+agent:abraham_farringdon:6f65e16a8a,Abraham Farringdon
+agent:abraham_fletcher:27f68819b8,Abraham Fletcher
+agent:abram:9dd14cc0cc,Abram
+agent:academy_of_florence:89616e2302,Academy of Florence
+agent:academy_of_leipzig:0cb690ab7a,Academy of Leipzig
+agent:academy_of_london:21b0e633cb,Academy of London
+agent:academy_of_paris:9b0846cb51,Academy of Paris
+agent:acadians:0469069cf1,Acadians
+agent:acanis:a415169c24,Acanis
+agent:accompong:b69c76c628,Accompong
+agent:accountant_general:d7a49dca5b,accountant-general
+agent:accountant_general_of_the_court_of_chancery:b475a24687,Accountant-General_of_the_Court_of_Chancery
+agent:achilles:336c6d2cdd,Achilles

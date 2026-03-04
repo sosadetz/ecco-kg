@@ -28,12 +28,12 @@ This repository contains small snippets of the assertion data for the major node
 	- `concepts.csv` - concepts discussed
 	- `events.csv` - events discussed
 - assertions/
-	- JSON example assertions drawn from Clarkson's _An Essay on Slavery_ and Addison and Steele's _The Spectator_.
+	- JSON example assertions drawn from Clarkson's _An Essay on Slavery_ (citing poems by Wheatley) and Addison and Steele's _The Spectator_, No. 10.
 - images/
-	- `pilot_graph.png` - Neo4j visualization of the pilot graph, excluding leaf nodes
-	- `kg_master_schema.png` - Illustrates the graph's schema, including nodes and edges
-	- `smith_slavery_passages` - A segment of the graph showing passages from Smith's _Wealth of Nations_ that discuss concepts related to slavery.
-    -  `agents_gallery` - People mentioned in our pilot corpus, sorted by birthdate. This gallery was developed using the Wikidata Query Service, so only persons with Wikidata Q-IDs and associated images are represented. More suitable as a teaching resource, this gallery is meant meerely to provide an illustrative example, indicating the sorts of questions that become newly possible to ask through this graph.
+	- `1_pilot_graph.png` - Neo4j visualization of the pilot graph, excluding leaf nodes
+	- `2_kg_master_schema.png` - Illustrates the graph's schema, including nodes and edges
+	- `3_smith_slavery_passages.png` - A segment of the graph showing passages from Smith's _Wealth of Nations_ that discuss concepts related to slavery.
+    -  `4_agents_gallery.pdf` - People mentioned in our pilot corpus, sorted by birthdate. This gallery was developed using the Wikidata Query Service, so only persons with Wikidata Q-IDs and associated images are represented. More suitable as a teaching resource, this gallery is meant meerely to provide an illustrative example, indicating the sorts of questions that become newly possible to ask through this graph.
 
 ### Citation
 
