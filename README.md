@@ -4,6 +4,10 @@ This repository documents an assertional knowledge graph built for large histori
 
 The graph is designed to support scholarly discovery at the scale of reading: using generative AI models as first-pass catalogers, it attaches structured, interoperable claims about passage-level content that can be aggregated and queried across a corpus.
 
+<p align="center">
+<img src="./images/1_pilot_graph.png" alt="A view of the pilot graph, excepting leaf nodes" width="400" />
+</p>
+
 ### What the graph enables
 
 Instead of asking only “Which books contain a keyword?”, you can ask questions that are more meaningful for qualitative humanistic inquiry, at the scale of the corpus:
