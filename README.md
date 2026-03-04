@@ -1,4 +1,4 @@
-# A knowledge graph for eighteenth-century corpora
+# An eighteenth-century knowledge graph
 
 This repository documents an assertional knowledge graph built for large historical corpora, using public-domain eighteenth-century volumes from HathiTrust. Its premise is simple: humanists should be able to navigate an archive not only according to volume-level bibliographic metadata, but by what books actually _do on the page_: whom they invoke, what authorities they cite, what events they recount, what concepts they debate, and how they position their claims.
 
