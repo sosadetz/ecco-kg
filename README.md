@@ -2,7 +2,7 @@
 
 This repository documents an assertional knowledge graph built for large historical corpora, using public-domain eighteenth-century volumes from HathiTrust. Its premise is simple: humanists should be able to navigate an archive not only according to volume-level bibliographic metadata, but by what books actually _do on the page_: whom they invoke, what authorities they cite, what events they recount, what concepts they debate, and how they position their claims.
 
-The graph is designed to support scholarly discovery at the scale of reading: using generative AI models as first-pass catalogers, it attaches structured, interoperable claims about passage-level content that can be aggregated and queried across a corpus.
+The graph is designed to support scholarly discovery at the scale of reading: using generative AI models as first-pass catalogers, it attaches structured, interoperable claims about passage-level content that can be aggregated and queried across a corpus. Here, the full graph is shown without leaf nodes.
 
 <p align="center">
 <img src="./images/1_pilot_graph.png" alt="A view of the pilot graph, excepting leaf nodes" width="400" />
