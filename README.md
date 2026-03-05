@@ -2,7 +2,7 @@
 
 This repository documents an assertional knowledge graph built for large historical corpora, using public-domain eighteenth-century volumes from HathiTrust. Its premise is simple: humanists should be able to navigate an archive not only according to volume-level bibliographic metadata, but by what books actually _do on the page_: whom they invoke, what authorities they cite, what events they recount, what concepts they debate, and how they position their claims.
 
-The graph is designed to support scholarly discovery at the scale of reading: using generative AI models as first-pass catalogers, it attaches structured, interoperable claims about passage-level content that can be aggregated and queried across a corpus. Here, the full pilot graph is shown, excepting leaf nodes.
+The graph is designed to support scholarly discovery at the scale of reading: using generative AI models as first-pass catalogers, it attaches structured, interoperable claims about passage-level content that can be aggregated and queried across a corpus. Here, our full pilot graph is shown, excepting leaf nodes.
 
 <p align="center">
 <img src="./images/1_pilot_graph.png" alt="A view of the pilot graph, excepting leaf nodes" width="400" />
@@ -37,7 +37,7 @@ This repository contains small snippets of the assertion data for the major node
 	- `1_pilot_graph.png` - Neo4j visualization of the pilot graph, excluding leaf nodes
 	- `2_kg_master_schema.png` - Illustrates the graph's schema, including nodes and edges
 	- `3_smith_slavery_passages.png` - A segment of the graph showing passages from Smith's _Wealth of Nations_ that discuss concepts related to slavery.
-    -  `4_agents_gallery.pdf` - People mentioned in our pilot corpus, sorted by birthdate. This gallery was developed using the Wikidata Query Service, so only persons with Wikidata Q-IDs and associated images are represented. More suitable as a teaching resource, this gallery is meant meerely to provide an illustrative example, indicating the sorts of questions that become newly possible to ask through this graph.
+    -  `4_agents_gallery.pdf` - People mentioned in our pilot corpus, sorted by birthdate. This gallery was developed using the Wikidata Query Service, so only persons with Wikidata Q-IDs and associated images are represented. More suitable as a teaching resource, this gallery is meant merely to provide an illustrative example, indicating the sorts of questions that become newly possible to ask through this graph.
 
 ### Citation
 
